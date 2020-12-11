@@ -1,4 +1,11 @@
 spring:
   jpa:
     database: mysql
-
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/bootiful_admin
+    username: root
+    password: rootroot
+  main:
+    lazy-initialization: true

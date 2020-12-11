@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: h2
+    show-sql: true
+  datasource:
+    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+  main:
+    lazy-initialization: true
+logging:
+  level:
+    root: warn
+    io.github.navee: debug
