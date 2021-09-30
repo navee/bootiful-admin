@@ -1,6 +1,6 @@
-package io.github.navee.bootifuladmin.repository;
+package io.github.navee.bootifuladmin.user.repository;
 
-import io.github.navee.bootifuladmin.entity.User;
+import io.github.navee.bootifuladmin.user.entity.User;
 import org.springframework.data.repository.CrudRepository;
 
 /**

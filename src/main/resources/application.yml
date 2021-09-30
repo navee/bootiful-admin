@@ -1,10 +1,6 @@
 spring:
-  jpa:
-    database: mysql
-    hibernate:
-      ddl-auto: create
   datasource:
-    url: jdbc:mysql://localhost:3306/bootiful_admin
+    url: jdbc:mysql://localhost:3306/bootiful_admin?useUnicode=true&characterEncoding=utf-8
     username: root
     password: rootroot
   main:

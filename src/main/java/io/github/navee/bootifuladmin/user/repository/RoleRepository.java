@@ -1,6 +1,6 @@
-package io.github.navee.bootifuladmin.repository;
+package io.github.navee.bootifuladmin.user.repository;
 
-import io.github.navee.bootifuladmin.entity.Role;
+import io.github.navee.bootifuladmin.user.entity.Role;
 import org.springframework.data.repository.CrudRepository;
 
 /**
@@ -8,4 +8,5 @@ import org.springframework.data.repository.CrudRepository;
  * @date 2020-12-11 17:23
  **/
 public interface RoleRepository extends CrudRepository<Role, Long> {
+
 }

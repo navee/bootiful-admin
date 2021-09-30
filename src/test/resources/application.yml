@@ -1,11 +1,8 @@
 spring:
-  jpa:
-    database: h2
-    show-sql: true
   datasource:
-    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
-  main:
-    lazy-initialization: true
+    url: jdbc:mysql://localhost:3306/bootiful_admin?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: rootroot
 logging:
   level:
     root: warn

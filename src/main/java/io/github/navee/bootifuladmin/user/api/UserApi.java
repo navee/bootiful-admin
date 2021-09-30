@@ -1,7 +1,7 @@
-package io.github.navee.bootifuladmin.api;
+package io.github.navee.bootifuladmin.user.api;
 
-import io.github.navee.bootifuladmin.entity.User;
-import io.github.navee.bootifuladmin.repository.UserRepository;
+import io.github.navee.bootifuladmin.user.domain.UserVO;
+import io.github.navee.bootifuladmin.user.repository.UserRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,8 +21,8 @@ public class UserApi {
     private UserRepository userRepository;
 
     @GetMapping(path = "{id}")
-    public Optional<User> get(@PathVariable(name = "id") Long id) {
-        return userRepository.findById(id);
+    public Optional<UserVO> get(@PathVariable(name = "id") Long id) {
+        return null;
     }
 
 }
